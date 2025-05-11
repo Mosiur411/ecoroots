@@ -1,9 +1,6 @@
 'use client';
-
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Leaf, ArrowLeft, Home, Compass } from 'lucide-react';
-import image from '@/assets/404.png';
 
 const NotFound = () => {
   const router = useRouter();
@@ -12,25 +9,17 @@ const NotFound = () => {
     <section className="bg-green-50 dark:bg-gray-900">
       <div className="container flex items-center min-h-screen px-6 py-12 mx-auto">
         <div className="flex flex-col items-center max-w-sm mx-auto text-center">
-          <div className="relative w-64 h-64 mb-6">
-            <Image
-              src={image}
-              alt="404 Not Found"
-              fill
-              className="object-contain"
-            />
-          </div>
 
           <div className="flex items-center gap-2 mb-4">
             <Leaf className="text-green-500" size={28} />
             <h4 className="text-2xl font-semibold text-gray-800 dark:text-green-400 md:text-3xl">
-              Oops! Wrong Sustainability Path
+              Looks like we took a wrong turn!
             </h4>
             <Leaf className="text-green-500" size={28} />
           </div>
 
           <p className="mt-2 text-gray-600 dark:text-gray-300">
-            This eco-route doesn&apos;t exist. Let&apos;s get you back on track!
+            The page you’re looking for is not here. Let’s get you back on track.
           </p>
 
           <div className="flex flex-col w-full mt-8 gap-4 sm:flex-row sm:w-auto">
@@ -47,7 +36,7 @@ const NotFound = () => {
               className="flex items-center justify-center gap-2 px-6 py-2 text-sm font-medium text-white transition-colors duration-200 bg-green-600 rounded-lg shadow-sm hover:bg-green-700 dark:bg-green-700 dark:hover:bg-green-600"
             >
               <Home className="w-5 h-5" />
-              <span>Take Me Home</span>
+              <span>Back to Home</span>
             </button>
           </div>
 
@@ -57,7 +46,7 @@ const NotFound = () => {
               className="flex items-center gap-2 text-sm text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
             >
               <Compass className="w-4 h-4" />
-              <span>Explore Sustainability Ideas</span>
+              <span>Discover Sustainability Ideas</span>
             </button>
           </div>
         </div>
