@@ -27,34 +27,8 @@ const Footer = () => {
             Building a greener tomorrow through shared sustainable ideas.
           </p>
           <div className="text-sm text-gray-600 dark:text-gray-300">
-            <p>Email: support@EcoRoots .com</p>
-            <p>Phone: +880 1234 567 890</p>
-          </div>
-          <div className="flex gap-4 mt-3">
-            <Link
-              href="#"
-              className="text-[#1877F2] hover:scale-110 transition"
-            >
-              <Facebook />
-            </Link>
-            <Link
-              href="#"
-              className="text-[#1DA1F2] hover:scale-110 transition"
-            >
-              <Twitter />
-            </Link>
-            <Link
-              href="#"
-              className="text-[#E1306C] hover:scale-110 transition"
-            >
-              <Instagram />
-            </Link>
-            <Link
-              href="#"
-              className="text-[#0077B5] hover:scale-110 transition"
-            >
-              <Linkedin />
-            </Link>
+            <p>Email: support@ecoroots.com</p>
+            <p>Phone: +8801751499625</p>
           </div>
         </div>
 
@@ -89,17 +63,17 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="mb-4 font-semibold text-gray-800 dark:text-gray-100">
-              Legal
+              Terms
             </h3>
             <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
               <li>
-                <Link href="/terms" className="hover:text-primary">
-                  Terms & Conditions
-                </Link>
-              </li>
-              <li>
                 <Link href="/privacy-policy" className="hover:text-primary">
                   Privacy Policy
+                </Link>
+              </li>
+                <li>
+                <Link href="/terms" className="hover:text-primary">
+                  Terms & Conditions
                 </Link>
               </li>
               <li>
@@ -112,18 +86,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="mt-12 pt-6 border-t text-sm text-center md:text-left text-gray-600 dark:text-gray-400 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p>© {new Date().getFullYear()} EcoRoots . All rights reserved.</p>
-        <div className="flex gap-4">
-          <Link href="/terms" className="hover:underline">
-            Terms
-          </Link>
-          <Link href="/privacy-policy" className="hover:underline">
-            Privacy
-          </Link>
-        </div>
-      </div>
     </footer>
   );
 };

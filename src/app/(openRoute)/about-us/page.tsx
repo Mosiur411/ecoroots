@@ -1,71 +1,70 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import plasticWaste from '@/assets/about-usbanner.jpeg';
 
 const AboutUsPage = () => {
   return (
     <div className="md:mx-20">
       <h1 className="text-2xl md:text-4xl font-bold text-center mb-12">
-        About EcoRoots 
+        About EcoRoots
       </h1>
+      <div className="relative w-full h-[400px] md:h-[600px]">
+        <Image
+          src={plasticWaste}
+          alt="Plastic Waste"
+          fill
+          className="object-cover rounded-2xl"
+          priority
+        />
+      </div>
+
       <p className="text-lg dark:text-white text-justify py-4">
         Welcome to{' '}
         <Link href="/" className="font-semibold text-green-500 hover:underline">
-          EcoRoots 
-        </Link>{' '}
-        – your premier platform for sharing and discovering sustainable ideas to
-        help our planet. We are committed to fostering a community where
-        innovative environmental solutions can flourish and make a real impact.
+          EcoRoots
+        </Link>
+        — your go-to hub for discovering and sharing innovative eco-friendly solutions.
+        We're here to support a community focused on meaningful sustainability practices that truly make a difference.
       </p>
 
       <div className="space-y-8">
         {/* Our Mission */}
         <section>
-          <h2 className="text-xl md:text-2xl font-semibold py-4">
-            Our Mission
-          </h2>
+          <h2 className="text-xl md:text-2xl font-semibold py-4">Our Mission</h2>
           <p className="dark:text-white text-justify">
-            At EcoRoots , our mission is to accelerate the transition to
-            sustainable living by connecting eco-conscious individuals. We
-            provide a collaborative space where members can share, discuss, and
-            implement practical environmental solutions, from reducing plastic
-            waste to adopting renewable energy.
+            EcoRoots is dedicated to promoting sustainable living by connecting environmentally conscious individuals.
+            Our platform serves as a collaborative environment where users can exchange ideas, explore green innovations,
+            and implement practical actions—from cutting waste to embracing renewable technologies.
           </p>
         </section>
 
-        {/* Our Story */}
+        {/* Our Impact – NEW */}
         <section>
-          <h2 className="text-xl md:text-2xl font-semibold py-4">Our Story</h2>
+          <h2 className="text-xl md:text-2xl font-semibold py-4">Our Impact</h2>
           <p className="dark:text-white text-justify">
-            EcoRoots  was born from a shared passion for environmental
-            conservation. What began as a small group of sustainability
-            enthusiasts has grown into a vibrant community platform where
-            innovative green ideas are shared, refined, and put into action to
-            create meaningful ecological change.
+            Since our launch, EcoRoots has helped thousands of people adopt sustainable habits, supported dozens of eco-projects,
+            and inspired a growing movement focused on environmental responsibility. From community cleanups to solar initiatives,
+            our members are turning ideas into measurable change.
           </p>
         </section>
 
         {/* Why Choose Us? */}
         <section>
           <h2 className="text-xl md:text-2xl font-semibold py-4">
-            Why Choose EcoRoots ?
+            Why Choose EcoRoots?
           </h2>
           <ul className="list-disc list-inside dark:text-white space-y-3 text-justify">
             <li>
-              <span className="font-semibold">Verified Ideas:</span> Our admin
-              team reviews all submissions to ensure quality and feasibility.
+              <span className="font-semibold">Curated Content:</span> Every submission is reviewed to ensure it meets our standards for impact and innovation.
             </li>
             <li>
-              <span className="font-semibold">Community-Driven:</span> Get
-              feedback and support from like-minded individuals passionate about
-              sustainability.
+              <span className="font-semibold">Community Support:</span> Engage with a network of individuals passionate about protecting our planet.
             </li>
             <li>
-              <span className="font-semibold">Diverse Categories:</span> Explore
-              ideas across energy, waste reduction, transportation, and more.
+              <span className="font-semibold">Wide-Ranging Topics:</span> Explore eco-ideas across diverse fields like clean energy, waste reduction, and sustainable travel.
             </li>
             <li>
-              <span className="font-semibold">Monetization Options:</span>{' '}
-              Premium content creators can earn from their innovative
-              sustainability solutions.
+              <span className="font-semibold">Earn While You Contribute:</span> Content creators can monetize their verified sustainability projects.
             </li>
           </ul>
         </section>
@@ -74,54 +73,52 @@ const AboutUsPage = () => {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold py-4">Our Values</h2>
           <p className="dark:text-white text-justify">
-            At EcoRoots , we believe in:
+            At EcoRoots, we’re guided by these core principles:
           </p>
           <ul className="list-disc list-inside dark:text-white space-y-3 mt-3 text-justify">
             <li>
-              <span className="font-semibold">Environmental Impact:</span> Every
-              idea shared has the potential to make our planet greener.
+              <span className="font-semibold">Environmental Commitment:</span> Every idea contributes to a cleaner, greener world.
             </li>
             <li>
-              <span className="font-semibold">Community Collaboration:</span>{' '}
-              Great solutions emerge when minds work together.
+              <span className="font-semibold">Collaboration:</span> The best solutions are built through teamwork and shared knowledge.
             </li>
             <li>
-              <span className="font-semibold">Innovation:</span> We champion
-              creative approaches to sustainability challenges.
+              <span className="font-semibold">Innovation:</span> We celebrate fresh thinking and creative solutions to sustainability challenges.
             </li>
           </ul>
         </section>
 
-        {/* Join the EcoRoots  Community */}
+        {/* Join the EcoRoots Community */}
         <section>
           <h2 className="text-xl md:text-2xl font-semibold py-4">
             Join the Sustainability Movement
           </h2>
           <p className="dark:text-white text-justify">
-            Whether you&apos;re looking to share your green initiative or find
-            inspiration for your next eco-project, EcoRoots  connects you
-            with a community that cares about our planet&apos;s future.
+            Whether you're here to discover new eco-friendly ideas or share your own,
+            EcoRoots connects you with a passionate community working toward a sustainable future.
           </p>
           <p className="dark:text-white mt-4">
-            Ready to make a difference?{' '}
+            Ready to get involved?{' '}
             <Link
               href="/ideas"
               className="text-blue-500 font-semibold hover:underline"
             >
-              Browse sustainable ideas
+              Explore ideas
             </Link>{' '}
             or{' '}
             <Link
               href="/register"
               className="text-blue-500 font-semibold hover:underline"
             >
-              join our community
+              create an account
             </Link>{' '}
-            to share your own.
+            to start contributing.
           </p>
         </section>
       </div>
     </div>
+
+
   );
 };
 

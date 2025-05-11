@@ -4,21 +4,21 @@ const TermsPage = () => {
   return (
     <div className="md:mx-20">
       <h1 className="text-3xl font-bold text-center mb-8">
-        EcoRoots  Terms of Service
+        EcoRoots Terms of Service
       </h1>
       <p className="text-gray-600 dark:text-gray-400 text-center mb-12">
         Last Updated: May 3, 2025
       </p>
 
       <div className="prose dark:prose-invert max-w-none">
+        {/* 1. Introduction */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
           <p>
-            Welcome to EcoRoots  (&quot;we,&quot; &quot;our,&quot; or
-            &quot;us&quot;). These Terms of Service (&quot;Terms&quot;) govern
+            Welcome to EcoRoots ("we," "our," or "us"). These Terms of Service ("Terms") govern
             your access to and use of our sustainability idea hub platform,
             including any content, functionality, and services offered on or
-            through EcoRoots .com (the &quot;Site&quot;).
+            through EcoRoots.com (the "Site").
           </p>
           <p className="mt-4">
             By accessing or using the Site, you agree to be bound by these
@@ -27,6 +27,7 @@ const TermsPage = () => {
           </p>
         </section>
 
+        {/* 2. User Accounts */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">2. User Accounts</h2>
           <div className="pl-5">
@@ -53,18 +54,17 @@ const TermsPage = () => {
           </div>
         </section>
 
+        {/* 3. Content and Conduct */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">
-            3. Content and Conduct
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">3. Content and Conduct</h2>
           <div className="pl-5">
             <h3 className="text-xl font-medium mb-2">
               3.1 User-Generated Content
             </h3>
             <p>
               Users may submit sustainability ideas, comments, and other content
-              (&quot;User Content&quot;). You retain ownership of your User
-              Content but grant EcoRoots  a worldwide, non-exclusive,
+              ("User Content"). You retain ownership of your User
+              Content but grant EcoRoots a worldwide, non-exclusive,
               royalty-free license to use, display, and distribute your User
               Content.
             </p>
@@ -74,16 +74,11 @@ const TermsPage = () => {
             </h3>
             <p>You agree not to post User Content that:</p>
             <ul className="list-disc pl-6 mt-2 space-y-2">
-              <li>
-                Violates any third-party rights, including intellectual property
-                or privacy rights
-              </li>
+              <li>Violates any third-party rights, including intellectual property or privacy rights</li>
               <li>Contains false or misleading information</li>
               <li>Is unlawful, threatening, abusive, or harassing</li>
               <li>Contains viruses or malicious code</li>
-              <li>
-                Promotes illegal activities or harmful environmental practices
-              </li>
+              <li>Promotes illegal activities or harmful environmental practices</li>
             </ul>
 
             <h3 className="text-xl font-medium mt-6 mb-2">
@@ -97,30 +92,41 @@ const TermsPage = () => {
           </div>
         </section>
 
+        {/* 4. Community Guidelines (New Section) */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">4. Paid Content</h2>
-          <div className="pl-5">
-            <h3 className="text-xl font-medium mb-2">4.1 Premium Ideas</h3>
-            <p>
-              Users may designate certain ideas as premium (&quot;Paid
-              Ideas&quot;). Other users must purchase access to view Paid Ideas.
-              EcoRoots  retains a 20% service fee from all purchases.
-            </p>
-            <h3 className="text-xl font-medium mt-6 mb-2">4.2 Refund Policy</h3>
-            <p>
-              All purchases of Paid Ideas are final. Refunds may be issued at
-              our sole discretion in exceptional circumstances.
-            </p>
-          </div>
+          <h2 className="text-2xl font-semibold mb-4">4. Community Guidelines</h2>
+          <p>
+            Our community values respectful interaction and constructive feedback.
+            Users are expected to:
+          </p>
+          <ul className="list-disc pl-6 mt-2 space-y-2">
+            <li>Engage respectfully with other members</li>
+            <li>Give credit where due for collaborative ideas</li>
+            <li>Refrain from spamming or self-promotion unrelated to sustainability</li>
+            <li>Report any abusive or inappropriate content</li>
+          </ul>
         </section>
 
+        {/* 5. Idea Verification Process (New Section) */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">
-            5. Intellectual Property
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">5. Idea Verification Process</h2>
+          <p>
+            Submitted sustainability ideas go through a verification process to ensure quality and
+            practicality. This includes:
+          </p>
+          <ul className="list-disc pl-6 mt-2 space-y-2">
+            <li>Review by subject matter experts</li>
+            <li>Community voting and feedback</li>
+            <li>Periodic re-evaluation for accuracy</li>
+          </ul>
+        </section>
+
+        {/* 6. Intellectual Property */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">6. Intellectual Property</h2>
           <p>
             The Site and its original content, features, and functionality are
-            owned by EcoRoots  and are protected by international copyright,
+            owned by EcoRoots and are protected by international copyright,
             trademark, and other intellectual property laws.
           </p>
           <p className="mt-4">
@@ -129,8 +135,9 @@ const TermsPage = () => {
           </p>
         </section>
 
+        {/* 7. Privacy */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">6. Privacy</h2>
+          <h2 className="text-2xl font-semibold mb-4">7. Privacy</h2>
           <p>
             Your privacy is important to us. Our{' '}
             <Link href="/privacy" className="text-blue-500 hover:underline">
@@ -142,44 +149,9 @@ const TermsPage = () => {
           </p>
         </section>
 
+        {/* 8. Modifications */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">7. Disclaimers</h2>
-          <p>
-            THE SITE IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTIES OF ANY
-            KIND. WE DO NOT GUARANTEE THAT:
-          </p>
-          <ul className="list-disc pl-6 mt-2 space-y-2">
-            <li>The Site will be uninterrupted or error-free</li>
-            <li>User Content will be accurate or reliable</li>
-            <li>Ideas posted will achieve their stated environmental impact</li>
-            <li>The Site will meet your specific requirements</li>
-          </ul>
-          <p className="mt-4">
-            Users implement sustainability ideas at their own risk. We recommend
-            consulting with appropriate professionals before undertaking
-            significant projects.
-          </p>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">
-            8. Limitation of Liability
-          </h2>
-          <p>
-            TO THE MAXIMUM EXTENT PERMITTED BY LAW, EcoRoots  SHALL NOT BE
-            LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL
-            DAMAGES RESULTING FROM:
-          </p>
-          <ul className="list-disc pl-6 mt-2 space-y-2">
-            <li>Your use or inability to use the Site</li>
-            <li>Unauthorized access to or alteration of your transmissions</li>
-            <li>Any content posted on the Site</li>
-            <li>Implementation of any ideas found on the Site</li>
-          </ul>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">9. Modifications</h2>
+          <h2 className="text-2xl font-semibold mb-4">8. Modifications</h2>
           <p>
             We reserve the right to modify these Terms at any time. We will
             provide notice of significant changes through the Site or via email.
@@ -188,38 +160,25 @@ const TermsPage = () => {
           </p>
         </section>
 
+        {/* 9. Termination */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">10. Termination</h2>
+          <h2 className="text-2xl font-semibold mb-4">9. Termination</h2>
           <p>
             We may suspend or terminate your account and access to the Site at
             our sole discretion, without notice, for conduct that we believe
-            violates these Terms or is harmful to other users or EcoRoots .
+            violates these Terms or is harmful to other users or EcoRoots.
           </p>
         </section>
 
+        {/* 10. Governing Law */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">11. Governing Law</h2>
+          <h2 className="text-2xl font-semibold mb-4">10. Governing Law</h2>
           <p>
             These Terms shall be governed by the laws of the State of Delaware,
             USA, without regard to its conflict of law provisions.
           </p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">
-            12. Contact Information
-          </h2>
-          <p>For questions about these Terms, please contact us at:</p>
-          <p className="mt-2">
-            EcoRoots  LLC
-            <br />
-            123 Sustainability Way
-            <br />
-            Wilmington, DE 19801
-            <br />
-            legal@EcoRoots .com
-          </p>
-        </section>
       </div>
     </div>
   );
