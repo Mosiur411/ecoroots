@@ -16,7 +16,7 @@ const CommonDashboard = () => {
           <Sparkles className="text-yellow-400" size={32} />
         </h2>
         <p className="text-lg text-muted-foreground">
-          Let’s make today count for a greener tomorrow.
+          Lets make today count for a greener tomorrow.
         </p>
       </div>
 
@@ -29,7 +29,7 @@ const CommonDashboard = () => {
               Welcome to EcoRoots! 🌿
             </h3>
             <p className="text-justify text-sm md:text-base text-muted-foreground">
-              Join a movement of changemakers building a sustainable future. Whether you're sharing green ideas, collaborating on climate projects, or exploring eco-innovations, this is your place to make an impact.
+              Join a movement of changemakers building a sustainable future. Whether youre sharing green ideas, collaborating on climate projects, or exploring eco-innovations, this is your place to make an impact.
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const CommonDashboard = () => {
             <h4 className="font-semibold text-purple-800 dark:text-purple-200">Community Impact</h4>
           </div>
           <p className="text-sm">
-            Together we've reduced
+            Together weve reduced
             <span className="font-bold text-purple-600 dark:text-purple-300"> 12,450 kg </span>
             of CO₂ this month. Keep going strong!
           </p>
@@ -70,7 +70,7 @@ const CommonDashboard = () => {
             <h4 className="font-semibold text-orange-800 dark:text-orange-200">My Contributions</h4>
           </div>
           <p className="text-sm">
-            You've submitted <span className="font-bold">8 green ideas</span> and participated in <span className="font-bold">3 community projects</span> so far. Amazing!
+            Youve submitted <span className="font-bold">8 green ideas</span> and participated in <span className="font-bold">3 community projects</span> so far. Amazing!
           </p>
         </div>
 

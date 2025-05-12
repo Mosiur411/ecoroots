@@ -130,10 +130,10 @@ const CommunityPlasticReduction = () => {
 
         <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
           When our neighborhood association first discussed plastic waste at our
-          monthly meeting, we never imagined we'd become a model for
+          monthly meeting, we never imagined wed become a model for
           community-led sustainability. Within one year, we reduced our
           collective plastic waste by 80% through simple, replicable strategies.
-          Here’s how we did it.
+          Heres how we did it.
         </p>
 
         <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
@@ -143,7 +143,7 @@ const CommunityPlasticReduction = () => {
           It started with a shocking discovery during our annual neighborhood
           cleanup. Of the 320 pounds of trash collected from just 12 blocks, 73%
           was single-use plastics. Water bottles, grocery bags, food packaging -
-          the sheer volume was overwhelming. That’s when we decided to take
+          the sheer volume was overwhelming. Thats when we decided to take
           action.
         </p>
 

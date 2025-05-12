@@ -53,7 +53,7 @@ const BlogsPage = () => {
                   </Link>
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  A step-by-step guide to setting up small-scale solar solutions that won't break the bank but will reduce your
+                  A step-by-step guide to setting up small-scale solar solutions that won t break the bank but will reduce your
                   carbon footprint.
                 </p>
                 <div className="flex items-center text-sm text-gray-500 dark:text-gray-300">
@@ -132,7 +132,7 @@ const BlogsPage = () => {
           </h2>
           <div className="bg-green-50 dark:bg-green-900/30 rounded-lg p-8">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">
-              "How Our Neighborhood Cut Plastic Waste by 80%"
+              How Our Neighborhood Cut Plastic Waste by 80%
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               Read the inspiring story of how one EcoRoots member mobilized their community to dramatically reduce

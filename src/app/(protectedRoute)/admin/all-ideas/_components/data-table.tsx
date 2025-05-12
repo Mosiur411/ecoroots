@@ -71,8 +71,10 @@ export function DataTable({ data }: DataTableProps) {
   const handleDeleteClick = (ideaId: string) => {
     setSelectedIdeaId(ideaId);
     setOpenDeleteModal(true);
+    
   };
   const handleConfirmDelete = async () => {
+    console.log(selectedIdea)
     if (!selectedIdeaId) return;
     try {
       await deleteIdea(selectedIdeaId);

@@ -15,10 +15,10 @@ const TermsPage = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
           <p>
-            Welcome to EcoRoots ("we," "our," or "us"). These Terms of Service ("Terms") govern
+            Welcome to EcoRoots (we, our, or us). These Terms of Service (Terms) govern
             your access to and use of our sustainability idea hub platform,
             including any content, functionality, and services offered on or
-            through EcoRoots.com (the "Site").
+            through EcoRoots.com (the Site).
           </p>
           <p className="mt-4">
             By accessing or using the Site, you agree to be bound by these
@@ -63,7 +63,7 @@ const TermsPage = () => {
             </h3>
             <p>
               Users may submit sustainability ideas, comments, and other content
-              ("User Content"). You retain ownership of your User
+              (User Content). You retain ownership of your User
               Content but grant EcoRoots a worldwide, non-exclusive,
               royalty-free license to use, display, and distribute your User
               Content.

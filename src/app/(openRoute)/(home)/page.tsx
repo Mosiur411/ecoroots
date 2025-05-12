@@ -17,7 +17,7 @@ const HomePage = async () => {
 
       <OurSkillsSection />
 
-     {/*  <WorkingSolutins /> */}
+      <WorkingSolutins />
 
       <TestimonialSection />
     </div>

@@ -24,7 +24,7 @@ const AboutUsPage = () => {
           EcoRoots
         </Link>
         — your go-to hub for discovering and sharing innovative eco-friendly solutions.
-        We're here to support a community focused on meaningful sustainability practices that truly make a difference.
+        Were here to support a community focused on meaningful sustainability practices that truly make a difference.
       </p>
 
       <div className="space-y-8">
@@ -94,7 +94,7 @@ const AboutUsPage = () => {
             Join the Sustainability Movement
           </h2>
           <p className="dark:text-white text-justify">
-            Whether you're here to discover new eco-friendly ideas or share your own,
+            Whether youre here to discover new eco-friendly ideas or share your own,
             EcoRoots connects you with a passionate community working toward a sustainable future.
           </p>
           <p className="dark:text-white mt-4">

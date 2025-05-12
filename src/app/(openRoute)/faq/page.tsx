@@ -40,7 +40,7 @@ const FaqPage = () => {
         <AccordionItem value="item-3">
           <AccordionTrigger>How do I get involved with EcoRoots?</AccordionTrigger>
           <AccordionContent>
-            Getting involved is easy! Simply sign up for an account, explore ideas, and start submitting your own. Whether you're a creator, voter, or commenter, you can actively participate in making a positive environmental impact.
+            Getting involved is easy! Simply sign up for an account, explore ideas, and start submitting your own. Whether youre a creator, voter, or commenter, you can actively participate in making a positive environmental impact.
           </AccordionContent>
         </AccordionItem>
 
@@ -48,13 +48,13 @@ const FaqPage = () => {
         <AccordionItem value="item-4">
           <AccordionTrigger>How do I collaborate with others on ideas?</AccordionTrigger>
           <AccordionContent>
-            EcoRoots encourages collaboration. You can comment on ideas, suggest improvements, or find team members in the discussions. We also have a "Seeking Collaborators" tag to help you connect with like-minded individuals for larger projects.
+            EcoRoots encourages collaboration. You can comment on ideas, suggest improvements, or find team members in the discussions. We also have a Seeking Collaborators tag to help you connect with like-minded individuals for larger projects.
           </AccordionContent>
         </AccordionItem>
 
         {/* New Section: What are EcoRoots' sustainability goals? */}
         <AccordionItem value="item-5">
-          <AccordionTrigger>What are EcoRoots' sustainability goals?</AccordionTrigger>
+          <AccordionTrigger>What are EcoRoots sustainability goals?</AccordionTrigger>
           <AccordionContent>
             EcoRoots aims to create a global network of individuals and organizations committed to sustainability. We focus on reducing waste, promoting renewable energy, supporting sustainable transportation, and driving eco-friendly innovations in all aspects of life.
           </AccordionContent>

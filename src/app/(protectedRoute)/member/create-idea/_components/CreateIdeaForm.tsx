@@ -38,6 +38,7 @@ const CreateIdeaForm = ({ categories }: { categories: category[] }) => {
   } = form;
 
   const handleIdeaSubmit: SubmitHandler<FieldValues> = async (data) => {
+
     if (isDrafting) {
       if (!data.title || data.title.trim()?.length < 10) {
         toast.error("Title must be at least 10 characters for a draft.");
@@ -90,6 +91,7 @@ const CreateIdeaForm = ({ categories }: { categories: category[] }) => {
       console.error(err);
       toast.error("Failed to create idea.");
     }
+
   };
 
 
