@@ -5,19 +5,14 @@
 
 # 📌 Overview
 
-A Next.js-powered community platform for sharing and voting on sustainable
-ideas. Admins moderate submissions, while members collaborate on eco-friendly
-solutions.
+EcoRoots is a modern community web platform where individuals can submit and support eco-friendly ideas. It leverages Next.js to deliver a fast and responsive interface. Admins have moderation capabilities, ensuring submitted ideas meet community standards.
 
 ## 🌍 Live URL
 
-- [Front-end](https://think-greenly-one.vercel.app)
-- [Back-end](https://think-greenly-serverside.vercel.app)
-
+- [Front-end](https://ecoroots-nine.vercel.app)
 ## 📂 Repository Link
 
-- [Front-end](https://github.com/khaledssbd/EcoRoots )
-- [Back-end](https://github.com/khaledssbd/EcoRoots -apis)
+- [Front-end](https://github.com/Mosiur411/ecoroots)
 
 ## 🛠️ Features
 
@@ -36,17 +31,7 @@ solutions.
 - **Form Handling**: React Hook Form
 - **Validation**: Zod
 
-#### Backend
 
-- **Framework**: Express.js
-- **Database**: PostgreSQL
-- **ORM**: Prisma
-- **Payment Method**: SSL Commerz
-- **Image hosting**: Multer & Cloudinary
-- **Mail Provider**: Nodemailer
-- **Validation**: Zod
-
----
 
 ## 🏃‍♂️ Setup Guide (Frontend)
 
@@ -60,7 +45,7 @@ solutions.
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/khaledssbd/EcoRoots .git
+   git clone https://github.com/Mosiur411/ecoroots.git
    cd EcoRoots 
 
    ```
@@ -75,7 +60,7 @@ solutions.
 3. Create .env file with:
 
    ```bash
-   NEXT_PUBLIC_API_URL="your_backend_url"
+   NEXT_PUBLIC_BASE_API="your_backend_url"
 
    ```
 
@@ -84,66 +69,6 @@ solutions.
    npm run dev
    ```
 
-## 🏃‍♂️ Setup Guide (Backend)
-
-### Prerequisites
-
-- Node.js ≥18.x
-- npm/yarn/pnpm
-
-### Installation
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/khaledssbd/EcoRoots -apis.git
-   cd EcoRoots -apis
-
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-
-   ```
-
-3. Create .env file with:
-
-   ```bash
-   NODE_ENV="development"
-   PORT=5000
-   DATABASE_URL=""
-
-   JWT_SECRET=""
-   JWT_EXPIRATION="15d"
-   JWT_REFRESH=""
-   JWT_REFRESH_EXPIRATION="7d"
-
-   RESET_PASSWORD_SECRET=""
-   RESET_PASSWORD_EXPIRATION="10m"
-   RESET_PASSWORD_LINK="http://localhost:5000/auth/reset-password"
-
-   BCRYPT_SALT_ROUNDS=12
-   SMTP_HOST="smtp.gmail.com"
-   SMTP_PORT=587
-   SMTP_USER=""
-   SMTP_APP_PASSWORD=""
-
-   CLOUDINARY_CLOUD_NAME=""
-   CLOUDINARY_API_KEY=""
-   CLOUDINARY_API_SECRET=""
-
-   ```
-
-4. Run the dev server:
-   ```bash
-   npm run dev
-   ```
-
-![alt text](think-greenly-one.vercel.app_.png)
-
-## License
 
 MIT (do whatever you want to do :smile: )
 # ecoroots
