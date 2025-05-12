@@ -1,5 +1,6 @@
 import { LoaderCircle } from "lucide-react";
 import { Suspense } from "react";
+import AllIdeasModule from "../all-ideas/_components/AllIdeasModule";
 export const dynamic = 'force-dynamic';
 
 const AdminAllUsersPage = () => {
@@ -11,6 +12,7 @@ const AdminAllUsersPage = () => {
         </div>
       }
     >
+      <AllIdeasModule/>
     </Suspense>
   );
 };
