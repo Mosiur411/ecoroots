@@ -7,8 +7,21 @@ import { Progress } from '../ui/progress';
 
 const OurSkillsSection = () => {
   return (
-    <section className="bg-[#8cf588c5] dark:bg-black py-20 px-6 md:px-12 lg:px-20 rounded-2xl">
+    <section className="bg-[#a8eca5c5] dark:bg-black py-20 px-6 md:px-12 lg:px-20 rounded-2xl">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+  {/* Image Section */}
+        <div className="flex justify-center">
+          <Image
+            src={skill}
+            alt="Sustainable Actions Illustration"
+            height={500}
+            width={500}
+            className="rounded-xl shadow-xl transition duration-300 hover:scale-105"
+          />
+        </div>
+
+
+
         {/* Text Section */}
         <div>
           {/* Section Title */}
@@ -51,16 +64,7 @@ const OurSkillsSection = () => {
           </div>
         </div>
 
-        {/* Image Section */}
-        <div className="flex justify-center">
-          <Image
-            src={skill}
-            alt="Sustainable Actions Illustration"
-            height={500}
-            width={500}
-            className="rounded-xl shadow-xl transition duration-300 hover:scale-105"
-          />
-        </div>
+      
       </div>
     </section>
   );
